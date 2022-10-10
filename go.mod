@@ -2,7 +2,7 @@ module github.com/unitoftime/binary
 
 go 1.17
 
-replace github.com/kelindar/binary => github.com/unitoftime/binary
+replace github.com/kelindar/binary => ./
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
