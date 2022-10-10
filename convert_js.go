@@ -4,6 +4,10 @@
 
 package binary
 
+func ToBytes(v string) (b []byte) {
+	return []byte(v)
+}
+
 func binaryToString(buf *[]byte) string {
 	return string(*buf)
 }
